@@ -4,24 +4,7 @@ import ProductCard from "@/components/products/product-card";
 import EmptyState from "@/components/common/empty-state";
 import { Props } from "@/components/products/product-card";
 
-const recentlyLaunchedProducts: Props[] = [
-  //   {
-  //     id: 1,
-  //     name: "Product One",
-  //     description: "This is a brief description of Product One.",
-  //     tags: ["AI", "SaaS", "Global"],
-  //     votes: 300,
-  //     isFeatured: true,
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Product Two",
-  //     description: "This is a brief description of Product Two.",
-  //     tags: ["AI", "full-stack", "Next.js"],
-  //     votes: 278,
-  //     isFeatured: false,
-  //   },
-];
+const recentlyLaunchedProducts: Props[] = [];
 
 export default function RecentLaunch() {
   return (
